@@ -4,9 +4,16 @@ and min number. The function should return an array of keys
 where the value is greater than or equal to the min number. 
 */
 
-// your code here
-
-//your code here
+function minAnimals(obj, min) {
+    let result = [];
+    for (let key in obj) {
+        let value = obj[key];
+        if (value >= min) {
+            result.push(key);
+        }
+    }
+    return result;
+}
 
 let zoo1 = {
     elephant: 1,
@@ -16,7 +23,7 @@ let zoo1 = {
     giraffe: 3,
 };
 
-console.log(animalCounter(zoo1, 4)); // ["zebra", "cobra"]
+console.log(minAnimals(zoo1, 4)); // ["zebra", "cobra"]
 
 let zoo2 = {
     elephant: 4,
@@ -26,4 +33,4 @@ let zoo2 = {
     giraffe: 1,
 };
 
-console.log(animalCounter(zoo2, 4)); // ["elephant", "polarBear"]
+console.log(minAnimals(zoo2, 4)); // ["elephant", "polarBear"]
