@@ -6,15 +6,7 @@ where the value is greater than or equal to the min number.
 
 // your code here
 
-let minAnimals = function (obj, min) {
-    let arr = [];
-    for (let key in obj) {
-        if (obj[key] >= min) {
-            arr.push(key);
-        }
-    }
-    return arr;
-};
+//your code here
 
 let zoo1 = {
     elephant: 1,
