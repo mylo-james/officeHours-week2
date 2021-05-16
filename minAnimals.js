@@ -5,14 +5,7 @@ where the value is greater than or equal to the min number.
 */
 
 function minAnimals(obj, min) {
-    let result = [];
-    for (let key in obj) {
-        let value = obj[key];
-        if (value >= min) {
-            result.push(key);
-        }
-    }
-    return result;
+  
 }
 
 let zoo1 = {

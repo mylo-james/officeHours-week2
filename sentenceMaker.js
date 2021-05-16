@@ -5,9 +5,7 @@ new words to the end of your sentence.
 */
 
 let sentenceMaker = function (string) {
-    return function (words) {
-        return (string += ' ' + words);
-    };
+    
 };
 
 let helloSentence = sentenceMaker('Hello');
