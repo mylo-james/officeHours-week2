@@ -1,6 +1,7 @@
 /* 
 Write an arrow function called mostExotic that intakes an array
-of animals and returns the animal that appears the least
+of animals and returns the animal that appears the least. If the array
+is empty return null.
 */
 
 let mostExotic = (animalArr) => {
