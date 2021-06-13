@@ -4,9 +4,11 @@ sentenceMaker will return a new function that will allow you to add
 new words to the end of your sentence.
 */
 
-let sentenceMaker = function (string) {
-    
-};
+/* 
+Plan: 
+*/
+
+// your code here
 
 let helloSentence = sentenceMaker('Hello');
 console.log(helloSentence); // [Function]
