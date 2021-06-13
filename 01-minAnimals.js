@@ -9,9 +9,9 @@ where the value is greater than or equal to the min number.
 Plan:
 */
 
-// your code here
-
-function minAnimals(obj, min) {}
+function minAnimals(obj, min) {
+  //your code here
+}
 
 let zoo1 = {
   elephant: 1,
