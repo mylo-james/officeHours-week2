@@ -1,4 +1,5 @@
 /* 
+Time: 25 mins
 Write an arrow function called mostExotic that intakes an array
 of animals and returns the animal that appears the least. If the 
 array is empty return null.

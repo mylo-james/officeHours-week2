@@ -1,4 +1,5 @@
 /* 
+Time: 15 mins
 Write a function called minAnimals that intakes an object
 and min number. The function should return an array of keys
 where the value is greater than or equal to the min number. 

@@ -1,4 +1,5 @@
 /* 
+Time: 15 mins
 Write a function called sentenceMaker that intakes a string.
 sentenceMaker will return a new function that will allow you to add
 new words to the end of your sentence.
