@@ -5,13 +5,7 @@ and min number. The function should return an array of keys
 where the value is greater than or equal to the min number. 
 */
 
-/*  
-Plan:
-*/
-
-function minAnimals(obj, min) {
-  //your code here
-}
+function minAnimals(obj, min) {}
 
 let zoo1 = {
   elephant: 1,

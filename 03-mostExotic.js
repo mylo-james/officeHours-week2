@@ -5,11 +5,7 @@ of animals and returns the animal that appears the least. If the
 array is empty return null.
 */
 
-/* 
-Plan:
-*/
 
-//Your code here
 
 let zoo1 = ["lion", "tiger", "bear", "lion", "lion", "bear"];
 
