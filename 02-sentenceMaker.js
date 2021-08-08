@@ -4,14 +4,10 @@ Write a function called sentenceMaker that intakes a string.
 sentenceMaker will return a new function that will allow you to add
 new words to the end of your sentence. 
 */
-const sentenceMaker = (string) => (newWord) => (string += " " + newWord);
 
-// function sentenceMaker(string1) {
-//   return function (string2) {
-//     return string1 += " " + string2;
-//   };
-// }
+// Your code here
 
+// Test cases
 let helloSentence = sentenceMaker("Hello");
 console.log(helloSentence); // [Function]
 console.log(helloSentence("there!")); // Hello there!
