@@ -5,7 +5,27 @@ and min number. The function should return an array of keys
 where the value is greater than or equal to the min number. 
 */
 
-// Your code here
+/* 
+PLAN
+Define a function called minAnimals(obj, num)
+Iterate over the object's keys
+  Filter the keys if they are >= the num
+return the filter
+*/
+
+// const minAnimals = (obj, num) => {
+//   const result = [];
+//   for (let animalName in obj) {
+//     let animalNum = obj[animalName];
+//     if (animalNum >= num) {
+//       result.push(animalName);
+//     }
+//   }
+//   return result;
+// };
+
+const minAnimals = (obj, num) => Object.keys(obj).filter((animalName)=> obj[animalName] >= num)
+
 
 // Test cases
 let zoo1 = {
